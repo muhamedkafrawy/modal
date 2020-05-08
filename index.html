@@ -14,15 +14,24 @@
             Modal Example
         </h2>
     </header>
-    <button type="button" id="modalButton" class="btn">Open Modal</button>
     <!--The Modal-->
-    <div id="myModal" class="modal">
+    <div id="modal-1" class="modal">
         <!-- Content Of The Modal-->
         <div class="modal-content">
             <span class="close">&times;</span>
             <p> Welcome To The Modal..</p>
         </div>
     </div>
+    <div id="modal-2" class="modal">
+        <!-- Content Of The Modal-->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p> Welcome To The Modal2..</p>
+        </div>
+    </div>
+    <button type="button" data-modal="modal-1" class="btn">Open Modal</button>
+    <button type="button" data-modal="modal-2" class="btn">Open Modal2</button>
+
     <script src="style/main.js"></script>
 
 </body>
